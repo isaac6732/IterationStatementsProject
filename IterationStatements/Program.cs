@@ -56,11 +56,13 @@ namespace IterationStatements
             foreach (int number in numbers)
             {
                 Console.WriteLine(numbers);
+                break;
             }
 
 
             Console.WriteLine("");
             Console.WriteLine("Decrease:");
+            
 
 
             // Create a for loop - this will print the numbers in reverse order - from 200 to 1
