@@ -11,7 +11,7 @@ namespace IterationStatements
                 // like the example below
 
                 //Create a List called "numbers" - DONE!
-                var numbers = new List<int>();
+                List<int> numbers = new List<int>();
 
             //-----START HERE------------------------------------------
             //Create a variable of type int and name it num
@@ -35,7 +35,7 @@ namespace IterationStatements
             // Create a while loop
             // <--- While num is less than 200
 
-            while(num < 200)
+            while (num < 200)
             {
                
                 num++;
@@ -55,11 +55,11 @@ namespace IterationStatements
             
             foreach (int number in numbers)
             {
-                Console.WriteLine(numbers);
-                break;
+                Console.WriteLine(number);
+                
             }
 
-
+            
             Console.WriteLine("");
             Console.WriteLine("Decrease:");
             
